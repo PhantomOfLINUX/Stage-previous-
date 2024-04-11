@@ -11,7 +11,7 @@ RUN echo "$stage:0000" | chpasswd
 
 #접속시 출력 화면 파일 복사
 COPY start.sh /home/$stage/
-COPY stage_file /usr
+COPY stage_file /usr/stage_file
 WORKDIR /home/$stage
 RUN echo | cat start.sh >> .bashrc
 RUN rm -rf start.sh
