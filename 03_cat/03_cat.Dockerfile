@@ -2,8 +2,8 @@
 FROM polhub/ws-base:s1003
 
 # 기존 환경 변수 및 사용자 설정을 유지할 수 있습니다.
-ENV stage=stage03
-ARG stage=stage03
+ENV stage=stage_cat
+ARG stage=stage_cat
 
 # 사용자 추가
 RUN useradd -ms /bin/bash $stage
@@ -23,8 +23,8 @@ RUN chown -R $stage /home/$stage
 USER $stage
 
 #cat 문제작성
-RUN mkdir /home/$stage/$stage
-WORKDIR /home/$stage/$stage
+RUN mkdir /home/$stage/test
+WORKDIR /home/$stage/test
 RUN cat > Hello.txt <<EOF
 dog
 EOF
