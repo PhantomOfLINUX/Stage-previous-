@@ -1,5 +1,5 @@
 #ws_pty.js가 copy되어 있는 이미지를 가져온다.
-FROM polhub/ws-base:stage03
+FROM polhub/ws-base:S1003
 
 # 기존 환경 변수 및 사용자 설정을 유지할 수 있습니다.
 ENV stage=stage03
