@@ -14,6 +14,6 @@ echo $stage
 echo " "
 echo "You can learn [ cd ] and [ pwd ]"
 
-cd /home/$stage/cd_pwd_stage
+cd /home/$stage
 #chmod 700 /home
 #

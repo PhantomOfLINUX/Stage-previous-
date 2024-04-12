@@ -14,5 +14,5 @@ echo $stage
 echo " "
 echo "You can learn [ ls ] and [ option ]"
 
-cd /home/$stage/$stage
+cd /home/$stage
 #chmod 700 /home
