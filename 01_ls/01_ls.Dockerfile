@@ -26,7 +26,7 @@ RUN mkdir /home/$stage/$stage
 WORKDIR /home/$stage/$stage
 RUN touch file1234.txt
 
-WORKDIR /usr/socket_io
+WORKDIR /usr/agent
 
 # 웹소켓 서버 실행 명령. 'ws_pty.js'는 웹소켓 서버의 메인 파일이라고 가정합니다.
 CMD ["node", "app.js"]
