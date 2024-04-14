@@ -1,9 +1,9 @@
 #ws_pty.js가 copy되어 있는 이미지를 가져온다.
-FROM polhub/socketio-base:stage02
+FROM polhub/ws-base:s1002
 
 # 기존 환경 변수 및 사용자 설정을 유지할 수 있습니다.
-ENV stage=stage02
-ARG stage=stage02
+ENV stage=stage_cd_pwd
+ARG stage=stage_cd_pwd
 
 # 사용자 추가
 RUN useradd -ms /bin/bash $stage
