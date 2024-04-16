@@ -1,4 +1,4 @@
-# STAGE 02 pwd cd
+# s1002 cd pwd
 ## 2-1
 - pwd 기본 명령어
 - 단답형
