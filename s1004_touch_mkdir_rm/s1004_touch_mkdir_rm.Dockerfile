@@ -22,12 +22,8 @@ RUN chown -R $stage /home/$stage
 # 사용자 변경
 USER $stage
 
-#cat 문제작성
 RUN mkdir /home/$stage/test
 WORKDIR /home/$stage/test
-RUN cat > Hello.txt <<EOF
-dog
-EOF
 
 WORKDIR /usr/agent
 
